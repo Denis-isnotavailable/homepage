@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 body {
@@ -237,6 +238,11 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--durability-text-color);
 }
 
 .additional-info__education-university-durability {
